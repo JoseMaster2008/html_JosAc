@@ -1,0 +1,72 @@
+/* Reiniciar el navegador para evitar diferencia de estilos*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales del cuerpo de la página*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: rgb(191, 205, 242);
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo para el encabezado con degradado*/
+.site-header{
+    background: linear-gradient(90deg, #5e5aae, #06b6d4);
+    color: rgb(108, 197, 230);
+    padding: 1rem;
+    text-align: center;
+}
+
+.subtitle{
+    opacity: 65%;
+}
+
+.content{
+    display: flex; /* Coloca las tarjetas una al lado de la otra*/
+    gap: 3rem; /* Agrega una separación en las tarjetas*/
+    flex-wrap: wrap; /* Permite que las tarjetas bajen si no caben */
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card{
+    background: rgb(102, 173, 216);
+    padding: 1.25rem;
+    border-radius: 12px; /*Redondear*/
+    box-shadow: 0.6px 18px rgba(120, 10, 50, 0.1); /* Dar profundidad a la card*/
+    width: 300px;
+}
+
+.card h2{
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.card p{
+    margin-bottom: 1rem;
+    color: rgb(64, 16, 90);
+}
+
+.btm{
+    display: inline-block;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background: rgb(207, 202, 205); 
+    border-radius: 8px;
+    color: black;
+}
+
+.card a{
+    display: flex;
+    text-align: center;
+}
+
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(59, 56, 52);
+}
